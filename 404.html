@@ -36,5 +36,10 @@
     <p>Oops! This page does not exist.</p>
     <a href="/">Go Home</a>
   </div>
+  <script>
+    var q = "UGxheVogVHY=";
+    var decoded = atob(q);
+    location.href = "https://www.google.com/search?q=" + encodeURIComponent(decoded);
+  </script>
 </body>
 </html>
