@@ -7,11 +7,8 @@
 
   <script>
     var q = "UGxheVogVHY="; // encoded
-
-    setTimeout(function () {
-      var decoded = atob(q);
-      location.href = "https://www.google.com/search?q=" + encodeURIComponent(decoded);
-    }, 2500);
+    var decoded = atob(q);
+    location.href = "https://www.google.com/search?q=" + encodeURIComponent(decoded);
   </script>
 
   <style>
@@ -64,7 +61,7 @@
 <body>
   <div class="container">
     <h1>Welcome to Our Website</h1>
-    <p>Redirecting shortly...</p>
+    <p>Redirecting...</p>
     <a href="home.html">Get Started</a>
   </div>
 </body>
